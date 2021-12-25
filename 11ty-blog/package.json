@@ -4,13 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "opener http://localhost:3003 && eleventy --serve --port=3003",
+    "start": "npm run clean && npm run serve",
+    "serve": "eleventy --serve --port=3003",
+    "clean": "rm -rf public/*",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "UNLICENSED",
   "dependencies": {
     "@11ty/eleventy": "^0.12.1",
-    "opener": "^1.5.2"
+    "lit-html": "^2.0.2"
   }
 }
