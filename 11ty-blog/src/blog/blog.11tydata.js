@@ -1,4 +1,4 @@
 module.exports = {
-  "layout": "post.njk",
+  "layout": "base.11ty.js",
   "tags": "posts"
 };

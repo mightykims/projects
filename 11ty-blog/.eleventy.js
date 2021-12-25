@@ -1,8 +1,8 @@
 module.exports = function (eleventyConfig) {
 
   eleventyConfig.addPassthroughCopy("./src/css/"); // https://www.11ty.dev/docs/copy/#configuration-api-method
-  eleventyConfig.addPassthroughCopy("**/*.jpg"); 
-  // eleventyConfig.setTemplateFormats(["**/*.jpg", "jpeg", "gif", "webp", "md"]); // https://www.11ty.dev/docs/copy/#passthrough-by-file-extension
+  // eleventyConfig.addPassthroughCopy("**/*.jpg"); 
+  eleventyConfig.setTemplateFormats(["jpg", "jpeg", "gif", "webp", "md"]); // https://www.11ty.dev/docs/copy/#passthrough-by-file-extension
 
   eleventyConfig.setFrontMatterParsingOptions({
     excerpt: true,
