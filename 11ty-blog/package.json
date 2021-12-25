@@ -1,0 +1,16 @@
+{
+  "name": "11ty-blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "opener http://localhost:3003 && eleventy --serve --port=3003",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@11ty/eleventy": "^0.12.1",
+    "opener": "^1.5.2"
+  }
+}
