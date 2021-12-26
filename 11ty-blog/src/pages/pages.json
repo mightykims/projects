@@ -1,4 +1,4 @@
 {
-  "layout": "page.njk",
+  "layout": "base.11ty.js",
   "tags": "pages"
 }

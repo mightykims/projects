@@ -15,18 +15,46 @@ module.exports = function (data) {
   </head>
   
   <body>
-    <header>
-      <h1>${title}</h1>
-    </header>
-    <main>
-      <article>
+  
+    <nav class="nav">
+      <div class="container">
+        <div>
+          <a href="/" alt="Home">
+            Home
+          </a>
+        </div>
+  
+        <ul>
+          <li>
+            <a href="/about">
+              About
+            </a>
+          </li>
+          <li>
+            <a href="/newsletter">
+              Newsletter
+            </a>
+          </li>
+          <li>
+            <a href="/contact">
+              Contact
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  
+    <main class="main">
+      <div class="container">
         ${content}
-      </article>
+      </div>
     </main>
-    <button onclick="helloAlert()">
-      Click me!
-    </button>
-    <script src="script.js"></script>
+  
+    <footer class="footer">
+      <div class="container">
+        ©2022
+      </div>
+    </footer>
   </body>
   
   </html>
