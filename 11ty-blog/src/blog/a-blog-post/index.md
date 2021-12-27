@@ -1,8 +1,8 @@
 ---
-title: This is a second post
+title: This is a Blog Post
 ---
 
-# Page 1
+# {{ title }}
 
 ![This is a placeholder](placeholder.jpg)
 
